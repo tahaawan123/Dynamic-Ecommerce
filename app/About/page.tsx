@@ -57,10 +57,10 @@ const About = () => {
         <div className='bg-white p-6 shadow-lg rounded-lg mb-8'>
           <h2 className='text-2xl font-semibold mb-4'>What Our Customers Say</h2>
           <p className='border-l-4 border-blue-500 pl-4 italic text-gray-700 mb-4'>
-            "Amazing shopping experience! The quality of the products exceeded my expectations." - Sarah W.
+            Amazing shopping experience The quality of the products exceeded my expectations.  Sarah W.
           </p>
           <p className='border-l-4 border-blue-500 pl-4 italic text-gray-700'>
-            "Excellent customer service and fast delivery. Highly recommend this store!" - Michael B.
+            Excellent customer service and fast delivery. Highly recommend this store Michael B.
           </p>
         </div>
 
