@@ -53,19 +53,19 @@ const Header = () => {
   <SheetTrigger><RiMenu3Fill/> </SheetTrigger>
   <SheetContent className="w-[200px] sm:w-[300px]">
   <nav className=" space-y-8">
-          <Link href="./" className="flex items-center space-x-2 hover:text-white transition">
+          <Link href="./" className="flex items-center space-x-2 hover:text-gray-400 transition">
             <FaHome />
             <span>Home</span>
           </Link>
-          <Link href="/Product" className="flex items-center space-x-2 hover:text-white transition">
+          <Link href="/Product" className="flex items-center space-x-2 hover:text-gray-400 transition">
             <FaBox />
             <span>Products</span>
           </Link>
-          <Link href="/About" className="flex items-center space-x-2 hover:text-white transition">
+          <Link href="/About" className="flex items-center space-x-2 hover:text-gray-400 transition">
             <FaInfoCircle />
             <span>About</span>
           </Link>
-          <Link href="/Contact" className="flex items-center space-x-2 hover:text-white transition">
+          <Link href="/Contact" className="flex items-center space-x-2 hover:text-gray-400 transition">
             <FaPhone />
             <span>Contact</span>
           </Link>
