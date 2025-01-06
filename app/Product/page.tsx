@@ -72,7 +72,7 @@ const  Product = () => {
                 <span className="text-yellow-500"> <span className="flex"><IoIosStar/><IoIosStar/><IoIosStar/><IoIosStar/></span> {item.rating.rate}</span>
                 <span className="text-gray-900 ml-2">({item.rating.count})</span>
               </div>
-             <p><Link href ={`/Product/${item.id}`}> <Button/></Link></p>
+             <Link href ={`/Product/${item.id}`}> <Button/></Link>
               
             </div>
           
