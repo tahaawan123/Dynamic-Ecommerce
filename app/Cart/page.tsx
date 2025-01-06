@@ -9,36 +9,46 @@ export default function CartPage() {
 
         {/* Cart Items */}
         <div className="bg-white shadow-md rounded-lg p-6">
-          <div className="flex items-center border-b pb-4">
-            <Image src={"/Cart/cart1.png"} alt="cart1" className=" rounded-md" width={100} height={50}/>
-            <div className="ml-4 flex-1">
-              <h2 className="text-lg font-semibold">SanDisk SSD PLUS 1TB Internal SSD </h2>
-              <p className="text-sm text-gray-500"> SATA III 6 Gb/s
-              electronics</p>
-            </div>
-            <div className="flex items-center space-x-4">
-              <p className="w-16 text-center border rounded-md">1</p>
-               
-              <p className="text-lg font-semibold">$109</p>
-              <button className="text-red-500 hover:underline">Remove</button>
-            </div>
-          </div>
+  <div className="flex flex-wrap items-center border-b pb-4 gap-4">
+    <Image
+      src={"/Cart/cart1.png"}
+      alt="cart1"
+      className="rounded-md"
+      width={100}
+      height={50}
+    />
+    <div className="ml-0 sm:ml-4 flex-1">
+      <h2 className="text-lg font-semibold">
+        SanDisk SSD PLUS 1TB Internal SSD
+      </h2>
+      <p className="text-sm text-gray-500">SATA III 6 Gb/s electronics</p>
+    </div>
+    <div className="flex items-center space-x-4 justify-between w-full sm:w-auto">
+      <p className="w-16 text-center border rounded-md">1</p>
+      <p className="text-lg font-semibold">$109</p>
+      <button className="text-red-500 hover:underline">Remove</button>
+    </div>
+  </div>
 
-         
-          <div className="flex items-center border-b py-4">
-          <Image src={"/Cart/cart2.jpeg"} alt="cart" className=" rounded-md" width={100} height={50}/>
-            
-            <div className="ml-4 flex-1">
-              <h2 className="text-lg font-semibold">White Gold </h2>
-              <p className="text-sm text-gray-500">Plated Princess</p>
-            </div>
-            <div className="flex items-center space-x-4">
-              <p className="w-16 text-center border rounded-md">2</p>
-              <p className="text-lg font-semibold">$9.99</p>
-              <button className="text-red-500 hover:underline">Remove</button>
-            </div>
-          </div>
-        </div>
+  <div className="flex flex-wrap items-center border-b py-4 gap-4">
+    <Image
+      src={"/Cart/cart2.jpeg"}
+      alt="cart"
+      className="rounded-md"
+      width={100}
+      height={50}
+    />
+    <div className="ml-0 sm:ml-4 flex-1">
+      <h2 className="text-lg font-semibold">White Gold</h2>
+      <p className="text-sm text-gray-500">Plated Princess</p>
+    </div>
+    <div className="flex items-center space-x-4 justify-between w-full sm:w-auto">
+      <p className="w-16 text-center border rounded-md">2</p>
+      <p className="text-lg font-semibold">$9.99</p>
+      <button className="text-red-500 hover:underline">Remove</button>
+    </div>
+  </div>
+</div>
 
         {/* Cart Summary */}
         <div className="mt-6 bg-white shadow-md rounded-lg p-6">
